@@ -1,29 +1,19 @@
 /*
-Seção 3 - Exercício 3
+Seção 3 - Exercício 5
 
-Teste o algoritmo do exercício 2 com dados definidos por você.
+Faça um algortimo que converta metros para centímetros.
 
-"calcula o estoque médio"
-
-#entradas
-receber quantidade_minima
-receber quantidade_maxima
-
-#processamento
-calcular o estoque médio com a fórmula estoque_medio = (quantidade_minima + quantidade_maxima) / 2
-
-#saída
-mostrar o estoque médio
+1 metro == 100 centímetros
 */
 
-estoque_medio = (quantidade_minima + quantidade_maxima) / 2  -> certo
-estoque_medio = quantidade_minima + quantidade_maxima / 2   -> errado
+"converte metros para centímetros"
 
----------------------------------------------------------------
-|  Quantidade mínima  |  Quantidade máxima  |  Estoque médio  |
-|--------------------------------------------------------------
-|        10           |       10            |     10          |
-|--------------------------------------------------------------
-|        13           |       189           |     101         |
----------------------------------------------------------------
+#entrada
+receber o tamanho em metros
+
+#processamento
+multiplicar o tamanho em metros por 100
+
+#saída
+mostrar o resultado da conversão
 

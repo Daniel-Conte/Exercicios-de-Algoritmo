@@ -1,19 +1,19 @@
 /*
-Seção 3 - Exercício 5
+Seção 3 - Exercício 7
 
-Faça um algortimo que converta metros para centímetros.
-
-1 metro == 100 centímetros
+Tendo como dados de entrada a altura de uma pessoa,
+construa um algoritmo que calcule seu peso ideal, usando
+a seguinte fórmula: (72.7 * altura) - 58
 */
 
-"converte metros para centímetros"
+"calcula peso ideal"
 
-#entrada
-receber o tamanho em metros
+#entrandas
+receber a altura da pessoa
 
 #processamento
-multiplicar o tamanho em metros por 100
+peso_ideal = (72.7 * altura) - 58
 
-#saída
-mostrar o resultado da conversão
+#saida
+mostrar o peso ideal
 

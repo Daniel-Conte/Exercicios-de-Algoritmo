@@ -1,21 +1,18 @@
 /*
-Seção 3 - Exercício 2
+Seção 3 - Exercício 4
 
-Faça um algoritmo para "Calcular o estoque médio de uma peça",
-sendo que:
-
-estoque_medio = (quantidade_minima + quantidade_maxima) / 2
+Faça um algoritmo que peça dois números e imprima a soma.
 */
 
-"calcula o estoque médio"
+"somar"
 
 #entradas
-receber quantidade_minima
-receber quantidade_maxima
+receber primeiro número
+receber segundo número
 
 #processamento
-calcular o estoque médio com a fórmula estoque_medio = (quantidade_minima + quantidade_maxima) / 2
+somar os dois números recebidos
 
 #saída
-mostrar o estoque médio
+mostrar o resultado da soma
 

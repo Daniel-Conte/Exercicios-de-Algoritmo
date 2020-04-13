@@ -1,23 +1,21 @@
 /*
-Seção 3 - Exercício 1
+Seção 3 - Exercício 2
 
-Indentifique os dados de entrada, processamento e saída no algoritmo abaixo:
+Faça um algoritmo para "Calcular o estoque médio de uma peça",
+sendo que:
 
-receber código da peça
-receber valor da peça
-receber quantidade de peças
-calcular o valor total da peça (quantidade * valor da peça)
-mostrar o código da peça e seu valor total
+estoque_medio = (quantidade_minima + quantidade_maxima) / 2
 */
 
+"calcula o estoque médio"
+
 #entradas
-receber código da peça
-receber valor da peça
-receber quantidade de peças
+receber quantidade_minima
+receber quantidade_maxima
 
 #processamento
-calcular o valor total da peça (quantidade * valor da peça)
+calcular o estoque médio com a fórmula estoque_medio = (quantidade_minima + quantidade_maxima) / 2
 
 #saída
-mostrar o código da peça e seu valor total
+mostrar o estoque médio
 
